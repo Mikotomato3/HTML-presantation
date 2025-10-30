@@ -399,9 +399,72 @@
         }
         
         /* 公式サイトリンク */
+        .official-links {
+            margin-top: var(--spacing-xl);
+        }
+        
+        .official-links h3 {
+            color: var(--primary-white);
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+        }
+        
+        .official-link {
+            display: block;
+            background: var(--primary-white);
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            text-decoration: none !important;
+            color: var(--text-dark) !important;
+            transition: var(--transition-medium);
+        }
+        
         .official-link:hover {
-            transform: translateY(-3px);
+            transform: translateY(-5px);
             box-shadow: var(--shadow-md);
+            text-decoration: none !important;
+        }
+        
+        .official-link-border-1 {
+            border-left: 4px solid var(--primary-blue);
+        }
+        
+        .official-link-border-2 {
+            border-left: 4px solid var(--secondary-blue);
+        }
+        
+        .official-link-border-3 {
+            border-left: 4px solid var(--success-green);
+        }
+        
+        .official-link-icon {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-sm);
+            line-height: 1;
+        }
+        
+        .official-link h4 {
+            color: var(--accent-blue);
+            margin-bottom: var(--spacing-sm);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .official-link-desc {
+            font-size: 0.95rem;
+            color: #6C757D;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        .official-link-subdesc {
+            font-size: 0.85rem;
+            color: #868e96;
+            line-height: 1.5;
+            display: block;
+            margin: 0;
         }
 
         /* 概要グリッド */
@@ -1253,33 +1316,33 @@
                             <div class="info-icon">🌡️</div>
                             <h3>気候</h3>
                             <p><span class="info-highlight">冷帯湿潤気候</span></p>
-                            <p><strong>夏：</strong> 15-25°C（白夜現象あり）</p>
-                            <p><strong>冬：</strong> -5 to -25°C（極夜現象あり）</p>
+                            <p><strong>夏:</strong> 15-25°C（白夜現象あり）</p>
+                            <p><strong>冬:</strong> -5 to -25°C（極夜現象あり）</p>
                             <p>札幌よりもさらに寒く、四季がはっきりしている</p>
                         </div>
                         <div class="info-card">
                             <div class="info-icon">🍲</div>
                             <h3>食べ物</h3>
                             <p><span class="info-highlight">北欧料理</span></p>
-                            <p><strong>魚介類：</strong> サーモン、ニシン、ザリガニ</p>
-                            <p><strong>ベリー：</strong> ブルーベリー、リンゴンベリー</p>
-                            <p><strong>乳製品：</strong> チーズ、ヨーグルト</p>
-                            <p><strong>パン：</strong> ライ麦パン（ルイスライパ）</p>
+                            <p><strong>魚介類:</strong> サーモン、ニシン、ザリガニ</p>
+                            <p><strong>ベリー:</strong> ブルーベリー、リンゴンベリー</p>
+                            <p><strong>乳製品:</strong> チーズ、ヨーグルト</p>
+                            <p><strong>パン:</strong> ライ麦パン（ルイスライパ）</p>
                         </div>
                         <div class="info-card">
                             <div class="info-icon">💰</div>
                             <h3>通貨</h3>
                             <p><span class="info-highlight">ユーロ（EUR）</span></p>
                             <p>2002年からEUに加盟しユーロを採用</p>
-                            <p><strong>為替レート：</strong> 1EUR ≈ 160円前後</p>
+                            <p><strong>為替レート:</strong> 1EUR ≈ 160円前後</p>
                             <p>キャッシュレス社会が進んでおり、カード決済が主流</p>
                         </div>
                         <div class="info-card">
                             <div class="info-icon">🗣️</div>
                             <h3>言語</h3>
                             <p><span class="info-highlight">フィンランド語・スウェーデン語</span></p>
-                            <p><strong>公用語：</strong> フィンランド語（93%）、スウェーデン語（5.6%）</p>
-                            <p><strong>英語普及率：</strong> 約70%（特に若者層）</p>
+                            <p><strong>公用語:</strong> フィンランド語（93%）、スウェーデン語（5.6%）</p>
+                            <p><strong>英語普及率:</strong> 約70%（特に若者層）</p>
                             <p>大学では英語での授業が豊富に提供されている</p>
                         </div>
                         <div class="info-card">
@@ -1287,33 +1350,33 @@
                             <h3>国土</h3>
                             <p><span class="info-highlight">約33.8万km²</span></p>
                             <p>日本の約90%の面積（九州を除いたくらい）</p>
-                            <p><strong>森林率：</strong> 73.1%（世界最高水準）</p>
-                            <p><strong>湖の数：</strong> 約18万8,000個</p>
+                            <p><strong>森林率:</strong> 73.1%（世界最高水準）</p>
+                            <p><strong>湖の数:</strong> 約18万8,000個</p>
                             <p>「千の湖の国」と呼ばれる美しい自然環境</p>
                         </div>
                     </div>
                     
                     <!-- フィンランド公式サイト -->
-                    <div class="official-links" style="margin-top: var(--spacing-xl); text-align: center;">
-                        <h3 style="color: var(--accent-blue); margin-bottom: var(--spacing-lg);">🔗 フィンランド公式サイト</h3>
-                        <div class="links-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-md);">
-                            <a href="https://finland.fi/" target="_blank" class="official-link" style="display: block; background: var(--primary-white); padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); text-decoration: none; color: var(--text-dark); transition: var(--transition-medium); border-left: 4px solid var(--primary-blue);">
-                                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🇫🇮</div>
-                                <h4 style="color: var(--accent-blue); margin-bottom: var(--spacing-xs);">thisisFINLAND</h4>
-                                <p style="font-size: 0.9rem; color: var(--text-light);">フィンランド政府公式情報サイト</p>
-                                <p style="font-size: 0.8rem; color: var(--text-light); margin-top: var(--spacing-xs);">政治・社会・文化の最新情報</p>
+                    <div class="official-links">
+                        <h3>🔗 フィンランド公式サイト</h3>
+                        <div class="links-grid">
+                            <a href="https://finland.fi/" target="_blank" class="official-link official-link-border-1">
+                                <div class="official-link-icon">🇫🇮</div>
+                                <h4>thisisFINLAND</h4>
+                                <span class="official-link-desc">フィンランド政府公式情報サイト</span>
+                                <span class="official-link-subdesc">政治・社会・文化の最新情報</span>
                             </a>
-                            <a href="https://www.visitfinland.com/ja/" target="_blank" class="official-link" style="display: block; background: var(--primary-white); padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); text-decoration: none; color: var(--text-dark); transition: var(--transition-medium); border-left: 4px solid var(--secondary-blue);">
-                                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">✈️</div>
-                                <h4 style="color: var(--accent-blue); margin-bottom: var(--spacing-xs);">Visit Finland</h4>
-                                <p style="font-size: 0.9rem; color: var(--text-light);">フィンランド政府観光局公式サイト</p>
-                                <p style="font-size: 0.8rem; color: var(--text-light); margin-top: var(--spacing-xs);">観光・旅行情報の総合ガイド</p>
+                            <a href="https://www.visitfinland.com/ja/" target="_blank" class="official-link official-link-border-2">
+                                <div class="official-link-icon">✈️</div>
+                                <h4>Visit Finland</h4>
+                                <span class="official-link-desc">フィンランド政府観光局公式サイト</span>
+                                <span class="official-link-subdesc">観光・旅行情報の総合ガイド</span>
                             </a>
-                            <a href="https://finlandabroad.fi/web/jpn/ja-frontpage" target="_blank" class="official-link" style="display: block; background: var(--primary-white); padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); text-decoration: none; color: var(--text-dark); transition: var(--transition-medium); border-left: 4px solid var(--success-green);">
-                                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🏛️</div>
-                                <h4 style="color: var(--accent-blue); margin-bottom: var(--spacing-xs);">駐日フィンランド大使館</h4>
-                                <p style="font-size: 0.9rem; color: var(--text-light);">在日フィンランド外務省公式サイト</p>
-                                <p style="font-size: 0.8rem; color: var(--text-light); margin-top: var(--spacing-xs);">ビザ・入国・外交情報</p>
+                            <a href="https://finlandabroad.fi/web/jpn/ja-frontpage" target="_blank" class="official-link official-link-border-3">
+                                <div class="official-link-icon">🏛️</div>
+                                <h4>駐日フィンランド大使館</h4>
+                                <span class="official-link-desc">在日フィンランド外務省公式サイト</span>
+                                <span class="official-link-subdesc">ビザ・入国・外交情報</span>
                             </a>
                         </div>
                     </div>
@@ -1495,7 +1558,8 @@
                             <h4>アイスランニング</h4>
                             <p>凍った湖や雪道でのランニング。特別な装備で安全に楽しめます。</p>
                         </div>
-
+                    </div>
+                </div>
 
                 <div class="content-block">
                     <h2>🎯 自然体験から学んだこと</h2>
@@ -1505,10 +1569,11 @@
                             フィンランドの自然との関わり方から、
                             「取り過ぎず、傷つけず、次の世代のために残す」という
                             持続可能性の本当の意味を学びました。
-                
                         </p>
                         <div class="reflection-author">- 自然体験を振り返って</div>
                     </div>
+                </div>
+            </div>
         </section>
 
         <!-- 文化交流セクション -->
@@ -1563,13 +1628,6 @@
                 </div>
 
                 <div class="content-block">
-                    <h2>🤝 出会った仲間たち</h2>
-                    <p>
-                        留学中に出会った友人たちは、それぞれユニークな背景と専門分野を持っていました。
-                        彼らとの交流を通じて、世界の多様性を肌で感じることができました。
-                    </p>
-                
-                <div class="content-block">
                     <h2>🌟 文化交流から得られた学び</h2>
                     <div class="reflection-box">
                         <div class="quote-mark">"</div>
@@ -1622,13 +1680,9 @@
                     
                     <div class="sauna-stats">
                         <div class="sauna-stat">
-                            <div class="stat-icon">🔥</div>
-                            <div class="stat-content">
-                                <div class="stat-number">3.3M</div>
-                                <div class="stat-label">フィンランド国内のサウナ数</div>
-                            </div>
-                       
-                       </div>
+                            <div class="stat-number">3.3M</div>
+                            <div class="stat-label">フィンランド国内のサウナ数</div>
+                        </div>
                     </div>
                 </div>
 
@@ -1799,13 +1853,13 @@
                 <div class="footer-section">
                     <h4>プレゼンテーション構成</h4>
                     <ul>
-                        <li>基本情報：フィンランドの基礎知識</li>
-                        <li>教育システム：世界最高水準の学習環境</li>
-                        <li>自然体験：きのこ狩りとウィンタースポーツ</li>
-                        <li>文化交流：国際色豊かな仲間たち</li>
-                        <li>日常生活：サウナ文化と北欧の暮らし</li>
+                        <li>基本情報:フィンランドの基礎知識</li>
+                        <li>教育システム:世界最高水準の学習環境</li>
+                        <li>自然体験:きのこ狩りとウィンタースポーツ</li>
+                        <li>文化交流:国際色豊かな仲間たち</li>
+                        <li>日常生活:サウナ文化と北欧の暮らし</li>
                     </ul>
-               
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Finland Experience. Created for Training Presentation.</p>
@@ -1918,14 +1972,6 @@
             updateVisibleSections();
         });
 
-        // 外部リンクの処理
-        document.querySelectorAll('a[target="_blank"]').forEach(link => {
-            link.addEventListener('click', function(e) {
-                console.log('外部リンクをクリック:', this.href);
-                // プレゼンテーション時は実際のリンクを開かない場合の処理
-            });
-        });
-
         // キーボードナビゲーション（プレゼン用）
         document.addEventListener('keydown', (e) => {
             const sections = ['home', 'finland-info', 'education', 'nature', 'culture', 'lifestyle'];
@@ -1952,16 +1998,6 @@
                 scrollToSection('lifestyle');
             }
         });
-
-        // プレゼンテーション完了イベント
-        function showCompletionMessage() {
-            if (window.scrollY + window.innerHeight >= document.body.scrollHeight - 100) {
-                console.log('プレゼンテーション完了！');
-                // 必要に応じて完了メッセージを表示
-            }
-        }
-
-        window.addEventListener('scroll', showCompletionMessage);
     </script>
 </body>
 </html>
